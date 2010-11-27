@@ -1,0 +1,20 @@
+package droolbook;
+
+import droolbook.Account;
+import org.joda.time.DateTime;
+
+
+rule "basic rule"
+when
+  Account( balance < 100 ) // condition
+then
+  System.out.println("Account balance is " + "less than 100"); // consequence
+end
+
+
+rule "Greater rule"
+when
+  $acc:Account( balance > 100 ) // condition
+then
+  System.out.println("!!!Account balance is greater than 100 "); // consequence
+end
