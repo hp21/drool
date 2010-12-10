@@ -7,9 +7,9 @@ import org.joda.time.DateTime;
 
 rule "basic rule"
 when
-  Account( balance < 100 )
-  Customer(name == "John") 
+  $a:Account( balance < 100 )
+  //Customer(name == "John")
 then
-  System.out.println("Account/Customer balance is " + "less than 100"); // consequence
+  System.out.println("Account/Customer balance is " + "less than 100"+$a); // consequence
 end
 

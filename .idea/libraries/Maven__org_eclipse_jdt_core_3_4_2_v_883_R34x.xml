@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipse.jdt:core:3.4.2.v_883_R34x">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/3.4.2.v_883_R34x/core-3.4.2.v_883_R34x.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/3.4.2.v_883_R34x/core-3.4.2.v_883_R34x-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/3.4.2.v_883_R34x/core-3.4.2.v_883_R34x-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
