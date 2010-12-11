@@ -1,0 +1,22 @@
+package droolbook;
+
+import droolbook.Account;
+import droolbook.Customer;
+import org.joda.time.DateTime;
+
+
+rule "basic rule"
+when
+  $a:Account( )
+  $c:Customer()
+then
+  System.out.println("Customer/Account="+ $c + "/"+$a); // consequence
+end
+
+rule "string"
+when
+    $s: String()
+then
+    System.out.println("String is: "+$s);
+end
+
