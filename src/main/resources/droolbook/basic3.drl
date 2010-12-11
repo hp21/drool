@@ -1,0 +1,15 @@
+package droolbook;
+
+import droolbook.Account;
+import droolbook.Customer;
+import org.joda.time.DateTime;
+
+
+rule "basic rule"
+when
+  //$a:Account( balance < 100 )
+  $c:Customer(name == "John", account.balance<100)
+then
+  System.out.println("Account/Customer="+ $c.getName()+ " balance is "+$c.getAccount().getBalance()); // consequence
+end
+

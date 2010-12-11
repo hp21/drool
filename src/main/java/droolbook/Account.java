@@ -7,6 +7,9 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 public class Account {
     private long balance;
 
+    public Account() {
+    }
+
     public long getBalance() {
         return balance;
     }
@@ -32,8 +35,6 @@ public class Account {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this).
-                append("balance", balance).
-                toString();
+        return new ToStringBuilder(this).append("balance", balance).toString();
     }
 }
