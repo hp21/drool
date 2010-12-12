@@ -18,5 +18,6 @@ when
     $s: String()
 then
     System.out.println("String is: "+$s);
+
 end
 
