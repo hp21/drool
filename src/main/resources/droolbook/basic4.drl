@@ -17,7 +17,7 @@ rule "string"
 when
     $s: String()
 then
-    System.out.println("String is: "+$s);
+    System.out.println("String is: "+$s); 
 
 end
 
