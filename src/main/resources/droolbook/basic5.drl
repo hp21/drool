@@ -1,0 +1,26 @@
+package droolbook;
+
+import droolbook.Account;
+import droolbook.Customer;
+import org.joda.time.DateTime;
+
+
+rule "basic rule"
+salience -10
+when
+  $a:Account( balance < 100 )
+  //$c:Customer(name == "John")
+then
+  System.out.println("Account with less than 100$ "+$a + "/"+$a.getBalance()); // consequence
+end
+
+
+rule "basic rule2"
+//salience -20
+salience -100
+when
+  $a:Account( balance < 66 )
+  //$c:Customer(name == "John")
+then
+  System.out.println("Account with less than 66$ "+$a + "/"+$a.getBalance()); // consequence
+end

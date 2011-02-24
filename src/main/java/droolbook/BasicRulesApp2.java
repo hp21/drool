@@ -42,7 +42,7 @@ public class BasicRulesApp2 {
 
       account = new Account();
       account.setBalance(1000);
-      // account.setBalance(99);
+       account.setBalance(99);
       session.insert(account);
 
       Customer customer = new Customer("Jane");

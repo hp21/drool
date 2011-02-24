@@ -9,7 +9,7 @@ import org.drools.io.ResourceFactory;
 import org.drools.runtime.StatefulKnowledgeSession;
 import org.joda.time.DateTime;
 
-public class BasicRulesApp {
+public class BasicRulesApp5 {
 
   public static final void main(String[] args) {
     KnowledgeBase knowledgeBase = createKnowledgeBase();
@@ -56,7 +56,7 @@ public class BasicRulesApp {
 
   private static KnowledgeBase createKnowledgeBase() {
     KnowledgeBuilder builder = KnowledgeBuilderFactory.newKnowledgeBuilder();
-    builder.add(ResourceFactory.newClassPathResource("droolbook/basic.drl"), ResourceType.DRL);
+    builder.add(ResourceFactory.newClassPathResource("droolbook/basic5.drl"), ResourceType.DRL);
     if (builder.hasErrors()) {
       throw new RuntimeException(builder.getErrors().toString());
     }
