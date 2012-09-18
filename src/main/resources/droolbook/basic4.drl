@@ -6,6 +6,7 @@ import org.joda.time.DateTime;
 
 
 rule "basic rule"
+#no-loop
 when
   $a:Account( )
   $c:Customer()
