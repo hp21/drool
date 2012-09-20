@@ -1,0 +1,22 @@
+package droolbook;
+
+import droolbook.Account;
+import droolbook.Customer;
+import org.joda.time.DateTime;
+
+/*
+matches all customers to all accounts
+
+*/
+
+global List accounts;
+
+rule "basic-rule"
+when
+	$customer: Customer()
+	listOfAccounts = (account  in $customers )
+then
+	System.out.println("Account="+ $a + " Customer is " + $customer.getName()); // consequence
+	accounts = listOfAccounts
+end
+

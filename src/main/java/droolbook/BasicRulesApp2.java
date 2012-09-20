@@ -64,7 +64,7 @@ public class BasicRulesApp2 {
     KnowledgeBuilder builder = KnowledgeBuilderFactory.newKnowledgeBuilder();
     // builder.add(ResourceFactory.newClassPathResource("droolbook/basic.drl"),
     // ResourceType.DRL);
-    builder.add(ResourceFactory.newClassPathResource("droolbook/basic3.drl"), ResourceType.DRL);
+    builder.add(ResourceFactory.newClassPathResource("droolbook/basic2.drl"), ResourceType.DRL);
     if (builder.hasErrors()) {
       throw new RuntimeException(builder.getErrors().toString());
     }

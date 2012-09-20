@@ -9,6 +9,7 @@ when
   Account( balance < 100 ) // condition
 then
   System.out.println("Account balance is " + "less than 100"); // consequence
+    System.out.println("context: "+ kcontext.getRule());
 end
 
 
@@ -17,4 +18,5 @@ when
   $acc:Account( balance > 100 ) // condition
 then
   System.out.println("!!!Account balance is greater than 100 "); // consequence
+  System.out.println("context: "+ kcontext.getRule());
 end
