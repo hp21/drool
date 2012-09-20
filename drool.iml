@@ -7,25 +7,29 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/test-annotations" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/annotations" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/target/classes" />
-      <excludeFolder url="file://$MODULE_DIR$/target/maven-archiver" />
-      <excludeFolder url="file://$MODULE_DIR$/target/surefire-reports" />
-      <excludeFolder url="file://$MODULE_DIR$/target/test-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.8.1" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.4" level="project" />
-    <orderEntry type="library" name="Maven: org.drools:drools-api:5.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.drools:drools-core:5.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.mvel:mvel2:2.0.10" level="project" />
-    <orderEntry type="library" name="Maven: joda-time:joda-time:1.6" level="project" />
-    <orderEntry type="library" name="Maven: org.drools:drools-compiler:5.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.antlr:antlr-runtime:3.1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jdt:core:3.4.2.v_883_R34x" level="project" />
-    <orderEntry type="library" name="Maven: janino:janino:2.5.15" level="project" />
+    <orderEntry type="library" name="Maven: org.drools:knowledge-api:5.4.0.Beta2" level="project" />
+    <orderEntry type="library" name="Maven: org.drools:drools-core:5.4.0.Beta2" level="project" />
+    <orderEntry type="library" name="Maven: org.mvel:mvel2:2.1.0.drools7" level="project" />
+    <orderEntry type="library" name="Maven: org.drools:knowledge-internal-api:5.4.0.Beta2" level="project" />
+    <orderEntry type="library" name="Maven: org.drools:drools-compiler:5.4.0.Beta2" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr-runtime:3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr:3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jdt.core.compiler:ecj:3.5.1" level="project" />
+    <orderEntry type="library" name="Maven: org.drools:drools-jsr94:5.4.0.Beta2" level="project" />
+    <orderEntry type="library" name="Maven: org.drools:drools-decisiontables:5.4.0.Beta2" level="project" />
+    <orderEntry type="library" name="Maven: org.drools:drools-templates:5.4.0.Beta2" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.jexcelapi:jxl:2.6.10" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.14" level="project" />
+    <orderEntry type="library" name="Maven: jsr94:jsr94:1.1" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.1" level="project" />
   </component>
 </module>
 
