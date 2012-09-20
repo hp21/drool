@@ -1,0 +1,37 @@
+package hp.aibook;
+
+import droolbook.Account;
+import droolbook.Customer;
+import org.joda.time.DateTime;
+
+
+rule "1"
+when
+  Y()
+  D()
+then
+  insert(new Z());
+  System.out.println("Z !!");
+end
+
+rule "2"
+when
+  X()
+  B()
+  E()
+then
+  insert(new Y());
+  System.out.println("Y !!");
+end
+
+rule "3"
+when
+  A()
+then
+  insert(new X());
+  System.out.println("X !!");
+end
+
+
+
+
