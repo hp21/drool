@@ -13,7 +13,8 @@ public class ForwardApp {
 
 	public static final void main(String[] args) {
 		KnowledgeBase knowledgeBase = createKnowledgeBase();
-//		StatefulKnowledgeSession session = knowledgeBase.newStatefulKnowledgeSession();
+		// StatefulKnowledgeSession session =
+		// knowledgeBase.newStatefulKnowledgeSession();
 		StatefulKnowledgeSession session = knowledgeBase.newStatefulKnowledgeSession();
 		try {
 
@@ -33,11 +34,11 @@ public class ForwardApp {
 	private static KnowledgeBase createKnowledgeBase() {
 		KnowledgeBuilder builder = KnowledgeBuilderFactory.newKnowledgeBuilder();
 		builder.add(ResourceFactory.newClassPathResource("hp/aibook/forward.drl"), ResourceType.DRL);
-		
+
 		if (builder.hasErrors()) {
 			throw new RuntimeException(builder.getErrors().toString());
 		}
-		
+
 		KnowledgeBase knowledgeBase = KnowledgeBaseFactory.newKnowledgeBase();
 		knowledgeBase.addKnowledgePackages(builder.getKnowledgePackages());
 		return knowledgeBase;
