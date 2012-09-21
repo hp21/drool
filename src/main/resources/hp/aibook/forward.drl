@@ -33,25 +33,27 @@ then
 end
 
 
-/*
+
 rule "31"
-salience 31
+#salience 31
 #activation-group "SPMT"
 when
   Z()
+  B()
 then
   System.out.println("Z 31 !!");
 end
 
 rule "32"
-salience 32
+#salience 32
 #activation-group "SPMT"
 when
   Z()
+  A()
 then
   System.out.println("Z32 !!");
 end
-*/
+
 
 
 

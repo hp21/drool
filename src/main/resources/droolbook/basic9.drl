@@ -1,0 +1,19 @@
+package droolbook;
+
+import droolbook.Account;
+import droolbook.Customer;
+import org.joda.time.DateTime;
+
+/*
+matches all customers to all accounts
+
+*/
+
+rule "basic-rule"
+when
+	$customer: Customer() eval(1==0)
+	
+then
+	System.out.println("Matched...."); // consequence
+end
+
